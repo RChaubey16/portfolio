@@ -31,7 +31,7 @@ export default function LinkCard({
         <Button
           variant={"socialLink"}
           size={"link"}
-          className="mb-5 md:mr-4 text-base cursor-pointer"
+          className="mb-5 md:mr-4 md:mb-0 text-base cursor-pointer"
         >
           {linkText}
         </Button>
