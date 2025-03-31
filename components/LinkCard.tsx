@@ -18,7 +18,7 @@ export default function LinkCard({
   linkText,
 }: LinkCardProps) {
   return (
-    <div className="flex justify-between items-center bg-dark-a10 rounded-lg border border-dark-a30">
+    <div className="flex flex-col md:flex-row justify-between items-center bg-dark-a10 rounded-lg border border-dark-a30">
       <div className="p-4 flex items-center">
         <Image src={logo} alt={"GitHub logo"} height={30} width={30} />
         <div className="ml-5">
@@ -31,7 +31,7 @@ export default function LinkCard({
         <Button
           variant={"socialLink"}
           size={"link"}
-          className="mr-4 text-base cursor-pointer"
+          className="mb-5 md:mr-4 text-base cursor-pointer"
         >
           {linkText}
         </Button>
