@@ -1,10 +1,31 @@
 {
   "links": [
     {
+      "logo": "/linkedin-logo.svg",
+      "text": "LinkedIn",
+      "description": "Skip the small talk, add me on LinkedIn.",
+      "linkHref": "https://www.linkedin.com/in/ruturaj-chaubey-b453b41b1",
+      "linkText": "View"
+    },
+    {
       "logo": "/github-logo.svg",
       "text": "GitHub",
       "description": "A backstage pass to the code behind the scenes.",
       "linkHref": "https://github.com/RChaubey16",
+      "linkText": "View"
+    },
+    {
+      "logo": "/x-logo.svg",
+      "text": "X / Twitter",
+      "description": "The front row seat to my unfiltered takes.",
+      "linkHref": "https://x.com/RChaubey16",
+      "linkText": "View"
+    },
+    {
+      "logo": "/hugging-face-logo.svg",
+      "text": "Hugging face",
+      "description": "Sneak peek into my AI experiments.",
+      "linkHref": "https://huggingface.co/RChaubey16",
       "linkText": "View"
     }
   ]
