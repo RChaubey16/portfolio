@@ -5,8 +5,16 @@ export default function Navbar() {
     <nav>
       <ul className="list-none space-y-5">
         <li>
-          <Link href="#" className="text-lg text-white hover:text-white/80">
+          <Link href="/" className="text-lg text-white hover:text-white/80">
             Home
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/projects"
+            className="text-lg text-white hover:text-white/80"
+          >
+            Projects
           </Link>
         </li>
         <li>
@@ -16,11 +24,14 @@ export default function Navbar() {
         </li>
         <li>
           <Link href="#" className="text-lg text-white hover:text-white/80">
-            Projects
+            Blogs
           </Link>
         </li>
         <li>
-          <Link href="#" className="text-lg text-white hover:text-white/80">
+          <Link
+            href="/links"
+            className="text-lg text-white hover:text-white/80"
+          >
             Links
           </Link>
         </li>
