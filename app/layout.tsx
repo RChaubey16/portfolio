@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased h-[100vh]`}
       >
-        <section className="w-full max-w-4xl mx-auto px-4 md:px-8 lg:px-0 flex flex-col lg:flex-row">
+        <section className="w-full max-w-4xl mx-auto mt-4 lg:mt-12 px-4 md:px-8 lg:px-0 flex flex-col lg:flex-row">
           <aside className="lg:flex-[0.3]">
             <UserProfile />
           </aside>
