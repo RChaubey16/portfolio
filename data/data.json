@@ -28,5 +28,34 @@
       "linkHref": "https://huggingface.co/RChaubey16",
       "linkText": "View"
     }
+  ],
+  "projects": [
+    {
+      "title": "Roast my Drupal",
+      "projectImage": "/roast-my-drupal.png",
+      "projectImageAltText": "Roast my Drupal web page screenshot",
+      "projectDescription": "Roast My Drupal is a tool that allows you to roast your Drupal website.",
+      "tags": ["Next.js", "TypeScript", "Gemini AI"],
+      "linkHref": "https://roastmydrupal.com",
+      "linkText": "View project"
+    },
+    {
+      "title": "AI web scraper",
+      "projectImage": "/roast-my-drupal.png",
+      "projectImageAltText": "AI web scraper web page screenshot",
+      "projectDescription": "A powerful web scraping tool that combines web automation with AI to intelligently extract and parse information from websites.",
+      "tags": ["AI", "Python", "Ollama", "Llama3.1", "Streamlit"],
+      "linkHref": "https://github.com/RChaubey16/ai-web-scraper",
+      "linkText": "View project"
+    },
+    {
+      "title": "Name my variable",
+      "projectImage": "/roast-my-drupal.png",
+      "projectImageAltText": "Name my variable web page screenshot",
+      "projectDescription": "VS code extension which generates better, readable variable names.",
+      "tags": ["Extension", "TypeScript", "Groq AI"],
+      "linkHref": "https://marketplace.visualstudio.com/items?itemName=RuturajChaubey.name-my-variable",
+      "linkText": "View extension"
+    }
   ]
 }
