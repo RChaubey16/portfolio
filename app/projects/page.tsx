@@ -1,11 +1,13 @@
 import ProjectCard from "@/components/ProjectCard";
-import data from "../../data/data.json";
+import TitleDescription from "@/components/ui/TitleDescription";
 import { Project } from "@/types/project";
+import data from "../../data/data.json";
 
-export default function Projects() {
+export default function ProjectsPage() {
   const { projects } = data;
   return (
     <div className="w-full">
+      <TitleDescription title="Projects" description="Here are some of my projects." />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {projects.map((project: Project) => (
           <ProjectCard
@@ -17,7 +19,7 @@ export default function Projects() {
             tags={project.tags}
             linkHref={project.linkHref}
             linkText={project.linkText}
-          />
+          /> 
         ))}
       </div>
     </div>

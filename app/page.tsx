@@ -1,10 +1,9 @@
-import data from "../data/data.json";
+import TitleDescription from "@/components/ui/TitleDescription";
 
 export default function Home() {
-  const { links } = data;
   return (
     <div className="w-full">
-      <p className="text-white">Home</p>
+      <TitleDescription title="About" description="I'm a software engineer with a passion for building products that help people live better lives." />
     </div>
   );
 }

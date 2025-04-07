@@ -18,7 +18,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="#" className="text-lg text-white hover:text-white/80">
+          <Link href="/contact" className="text-lg text-white hover:text-white/80">
             Contact
           </Link>
         </li>
@@ -36,7 +36,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="#" className="text-lg text-white hover:text-white/80">
+          <Link href="/testimonials" className="text-lg text-white hover:text-white/80">
             Testimonials
           </Link>
         </li>

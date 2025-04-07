@@ -1,7 +1,7 @@
 import LinkCard from "@/components/LinkCard";
 import data from "../../data/data.json";
 
-export default function Links() {
+export default function LinksPage() {
   const { links } = data;
   return (
     <div className="w-full">
