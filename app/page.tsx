@@ -1,4 +1,3 @@
-import LinkCard from "@/components/LinkCard";
 import data from "../data/data.json";
 
 export default function Home() {
