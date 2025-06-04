@@ -1,4 +1,26 @@
 {
+  "photos": [
+    {
+      "id": 1,
+      "src": "/test-img.jpg",
+      "alt": "Ruturaj Chaubey's profile photo"
+    },
+    {
+      "id": 2,
+      "src": "/test-img.jpg",
+      "alt": "Ruturaj Chaubey's profile photo"
+    },
+    {
+      "id": 3,
+      "src": "/test-img.jpg",
+      "alt": "Ruturaj Chaubey's profile photo"
+    },
+    {
+      "id": 4,
+      "src": "/test-img.jpg",
+      "alt": "Ruturaj Chaubey's profile photo"
+    }
+  ],
   "links": [
     {
       "logo": "/linkedin-logo.svg",
