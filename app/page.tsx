@@ -1,5 +1,6 @@
 import TitleDescription from "@/components/ui/TitleDescription";
 import PhotosGrid from "@/components/PhotosGrid";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         classes="mb-16"
       />
       <PhotosGrid />
+      <Experience />
     </div>
   );
 }
