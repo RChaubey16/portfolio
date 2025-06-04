@@ -18,13 +18,8 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="/contact" className="text-lg text-white hover:text-white/80">
-            Contact
-          </Link>
-        </li>
-        <li>
           <Link href="#" className="text-lg text-white hover:text-white/80">
-            Blogs
+            Photos
           </Link>
         </li>
         <li>
@@ -36,13 +31,11 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="/testimonials" className="text-lg text-white hover:text-white/80">
+          <Link
+            href="/testimonials"
+            className="text-lg text-white hover:text-white/80"
+          >
             Testimonials
-          </Link>
-        </li>
-        <li>
-          <Link href="#" className="text-lg text-white hover:text-white/80">
-            Recent Photos
           </Link>
         </li>
       </ul>

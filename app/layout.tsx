@@ -4,6 +4,7 @@ import "./globals.css";
 
 import UserProfile from "@/components/UserProfile";
 import Footer from "@/components/Footer";
+import NavbarMobile from "@/components/NavbarMobile";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,10 +32,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased h-[100vh]`}
       >
         <section className="w-full max-w-4xl mx-auto px-4 md:px-8 lg:px-0 flex flex-col lg:flex-row">
+          <NavbarMobile />
           <aside className="hidden lg:block sticky top-0 h-screen pt-4 lg:pt-12 lg:flex-[0.3]">
             <UserProfile />
           </aside>
-          <main className="flex-[0.7] pt-4 lg:pt-12">
+          <main className="mt-24 lg:mt-0 flex-[0.7] pt-4 lg:pt-12">
             {children}
             <Footer />
           </main>
