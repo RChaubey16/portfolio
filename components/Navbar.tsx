@@ -18,7 +18,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="#" className="text-lg text-white hover:text-white/80">
+          <Link href="photos" className="text-lg text-white hover:text-white/80">
             Photos
           </Link>
         </li>

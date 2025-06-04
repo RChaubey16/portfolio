@@ -64,7 +64,7 @@ export default function NavbarMobile() {
             </li>
             <li>
               <Link
-                href="#"
+                href="/photos"
                 className="text-xl text-white hover:text-white/80"
                 onClick={() => setIsOpen(false)}
               >

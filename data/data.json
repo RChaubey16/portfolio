@@ -1,24 +1,37 @@
 {
   "photos": [
     {
-      "id": 1,
-      "src": "/test-img.jpg",
-      "alt": "Ruturaj Chaubey's profile photo"
+      "src": "/static/photos/golden-hour.jpg",
+      "alt": "Golden hour from a flight to Delhi"
     },
     {
-      "id": 2,
-      "src": "/test-img.jpg",
-      "alt": "Ruturaj Chaubey's profile photo"
+      "src": "/static/photos/me-playing-pool.jpg",
+      "alt": "Me and my friend Vighnesh playing pool at QED42 office in Pune"
     },
     {
-      "id": 3,
-      "src": "/test-img.jpg",
-      "alt": "Ruturaj Chaubey's profile photo"
+      "src": "/static/photos/team-qed42.jpg",
+      "alt": "QED42 team at DrupalCon Singapore 2024"
     },
     {
-      "id": 4,
-      "src": "/test-img.jpg",
-      "alt": "Ruturaj Chaubey's profile photo"
+      "src": "/static/photos/streets-of-landour.JPG",
+      "alt": "Streets of Landour"
+    },
+    {
+      "src": "/static/photos/me-at-landour-bakehouse.jpg",
+      "alt": "Me at the entrance of Landour Bakehouse in Landour, Mussoorie"
+    },
+    {
+      "src": "/static/photos/me-at-marina-pier.jpg",
+      "alt": "Me at Marina bay Pier in Singapore"
+    },
+
+    {
+      "src": "/static/photos/quote-tree.jpg",
+      "alt": "Beautiful quote on an oak tree in Landour"
+    },
+    {
+      "src": "/static/photos/top-of-marina-bay-sands.jpg",
+      "alt": "View from the observatory deck of Marina Bay Sands in Singapore"
     }
   ],
   "links": [

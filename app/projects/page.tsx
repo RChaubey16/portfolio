@@ -7,7 +7,7 @@ export default function ProjectsPage() {
   const { projects } = data;
   return (
     <div className="w-full">
-      <TitleDescription title="Projects" description="Here are some of my projects." />
+      <TitleDescription title="Projects" description="Here are some of my projects." classes="mb-16" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {projects.map((project: Project) => (
           <ProjectCard

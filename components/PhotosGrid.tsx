@@ -15,9 +15,9 @@ export default function PhotosGrid() {
       />
       <div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-          {photos.map((photo) => (
+          {photos.slice(0, 4).map((photo, index) => (
             <Image
-              key={photo.id}
+              key={index + 1}
               src={photo.src}
               alt={photo.alt}
               width={500}
@@ -27,7 +27,7 @@ export default function PhotosGrid() {
           ))}
         </div>
         <div className="flex justify-center">
-          <Link href={"/photos"} target="_blank">
+          <Link href={"/photos"}>
             <Button
               variant={"secondary"}
               size={"link"}
