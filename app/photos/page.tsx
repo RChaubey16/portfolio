@@ -13,9 +13,8 @@ export default function PhotosPage() {
       />
       <div className="grid grid-cols-1 gap-16 mb-6">
         {photos.map((photo, index) => (
-          <div>
+          <div key={index + 1}>
             <Image
-              key={index + 1}
               src={photo.src}
               alt={photo.alt}
               width={500}
