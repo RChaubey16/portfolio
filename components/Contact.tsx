@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <div className="w-full">
-      <TitleDescription title="Contact" description="" classes="mt-16" />
+    <div className="w-full mt-20">
+      <TitleDescription title="Contact" description="" classes="" />
       <p className="text-base text-white/70">
         Feel free to reach out at{" "}
         <Link href={"mailto:ruturajchaubey16@gmail.com"} className="text-white font-bold underline">

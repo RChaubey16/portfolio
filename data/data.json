@@ -1,4 +1,18 @@
 {
+  "name": "Ruturaj Chaubey",
+  "description": "A Full Stack Engineer at QED42, knee-deep in Next.js, Drupal, GenAI, and the occasional existential bug. When I'm not arguing with my code, I'm on the badminton court trying to smash my way to glory. Also, a loyal (and slightly heartbroken) FC Barcelona fan and yes, we still believe.",
+  "ventures": [
+    {
+      "title": "Curate",
+      "description": "A tool to help you curate content for your audience",
+      "linkHref": "/home"
+    },
+        {
+      "title": "Roast My Drupal V2",
+      "description": "Get your Drupal profile roasted",
+      "linkHref": "/home"
+    }
+  ],
   "photos": [
     {
       "src": "/static/photos/golden-hour.jpg",

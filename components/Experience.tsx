@@ -8,11 +8,11 @@ import TitleDescription from "./ui/TitleDescription";
 
 export default function Experience() {
   return (
-    <div className="">
+    <div className="mt-20">
       <TitleDescription
         title="Experience"
-        description="I'm a software engineer with a passion for building products that help people live better lives."
-        classes="mt-16 mb-10"
+        description="Gained valuable experience in translating vague ideas into working miracles."
+        classes="mb-10"
       />
       <div className="space-y-6">
         <Accordion
