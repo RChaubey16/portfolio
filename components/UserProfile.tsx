@@ -5,7 +5,7 @@ export default function UserProfile() {
   return (
     <div className="hidden lg:block">
       <Avatar className="w-22 h-full mb-4">
-        <AvatarImage src="https://media.licdn.com/dms/image/v2/D4D03AQFKqx8NhwbCfQ/profile-displayphoto-shrink_200_200/B4DZXz3rV6GwAY-/0/1743553218770?e=1749081600&v=beta&t=9IbAbpPq6NXdB_EL5MIjMHebsLqryBgLAPMICAd2PE8" />
+        <AvatarImage src="/static/photos/avatar-profile.jpg" className="object-cover scale-110" />
         <AvatarFallback>RC</AvatarFallback>
       </Avatar>
       <div className="mb-12">
