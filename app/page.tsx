@@ -1,6 +1,7 @@
 import TitleDescription from "@/components/ui/TitleDescription";
 import PhotosGrid from "@/components/PhotosGrid";
 import Experience from "@/components/Experience";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       />
       <PhotosGrid />
       <Experience />
+      <Contact />
     </div>
   );
 }

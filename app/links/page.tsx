@@ -1,10 +1,16 @@
 import LinkCard from "@/components/LinkCard";
 import data from "../../data/data.json";
+import TitleDescription from "@/components/ui/TitleDescription";
 
 export default function LinksPage() {
   const { links } = data;
   return (
     <div className="w-full">
+      <TitleDescription
+        title="Socials"
+        description="Here are some of my projects."
+        classes="mb-16"
+      />
       <div className="space-y-5">
         {links.map((link, index) => (
           <LinkCard
