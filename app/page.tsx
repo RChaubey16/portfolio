@@ -1,6 +1,7 @@
 import TitleDescription from "@/components/ui/TitleDescription";
 import PhotosGrid from "@/components/PhotosGrid";
 import Experience from "@/components/Experience";
+import CurrentVentures from "@/components/CurrentVentures";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       />
       <PhotosGrid />
       <Experience />
+      <CurrentVentures />
       <Contact />
     </div>
   );
