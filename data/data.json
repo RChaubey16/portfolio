@@ -7,7 +7,7 @@
       "description": "A tool to help you curate content for your audience",
       "linkHref": "/home"
     },
-        {
+    {
       "title": "Roast My Drupal V2",
       "description": "Get your Drupal profile roasted",
       "linkHref": "/home"
@@ -113,5 +113,151 @@
       "linkHref": "https://github.com/RChaubey16/ai-web-scraper",
       "linkText": "View project"
     }
-  ]
+  ],
+  "stack:": {
+    "language_frameworks": [
+      {
+        "title": "Next.js",
+        "logo": "/static/stack/nextjs-logo.svg",
+        "altText": "Next.js logo",
+        "linkHref": "https://nextjs.org"
+      },
+      {
+        "title": "Express.js",
+        "logo": "/static/stack/express-logo.svg",
+        "altText": "Express logo",
+        "linkHref": "https://expressjs.com"
+      },
+      {
+        "title": "Drupal",
+        "logo": "/static/stack/drupal-logo.svg",
+        "altText": "Drupal logo",
+        "linkHref": "https://www.drupal.org"
+      },
+      {
+        "title": "FastAPI",
+        "logo": "/static/stack/fastapi-logo.svg",
+        "altText": "FastAPI logo",
+        "linkHref": "https://fastapi.tiangolo.com"
+      },
+      {
+        "title": "Gatsby",
+        "logo": "/static/stack/gatsby-logo.svg",
+        "altText": "Gatsby logo",
+        "linkHref": "https://www.gatsbyjs.com"
+      },
+      {
+        "title": "Shadcn UI",
+        "logo": "/static/stack/shadcn-ui-logo.svg",
+        "altText": "Shadcn UI logo",
+        "linkHref": "https://ui.shadcn.com"
+      },
+      {
+        "title": "Tailwind",
+        "logo": "/static/stack/tailwind-css-logo.svg",
+        "altText": "Tailwind CSS logo",
+        "linkHref": "https://tailwindcss.com"
+      },
+      {
+        "title": "Sass",
+        "logo": "/static/stack/sass-logo.svg",
+        "altText": "SASS logo",
+        "linkHref": "https://sass-lang.com"
+      },
+      {
+        "title": "GraphQL",
+        "logo": "/static/stack/graphql-logo.svg",
+        "altText": "GraphQL logo",
+        "linkHref": "https://graphql.org"
+      },
+      {
+        "title": "Electron",
+        "logo": "/static/stack/electron-logo.svg",
+        "altText": "Electron logo",
+        "linkHref": "https://www.electronjs.org"
+      },
+      {
+        "title": "JavaScript",
+        "logo": "/static/stack/javascript-logo.svg",
+        "altText": "JavaScript logo",
+        "linkHref": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        "title": "Python",
+        "logo": "/static/stack/python-logo.svg",
+        "altText": "Python logo",
+        "linkHref": "https://www.python.org"
+      },
+      {
+        "title": "PHP",
+        "logo": "/static/stack/php-logo.svg",
+        "altText": "PHP logo",
+        "linkHref": "https://www.php.net"
+      }
+    ],
+    "services": [
+      {
+        "title": "Vercel",
+        "logo": "/static/stack/vercel-logo.svg",
+        "altText": "Vercel logo",
+        "linkHref": "https://vercel.com"
+      },
+      {
+        "title": "Cloudflare",
+        "logo": "/static/stack/cloudflare-logo.svg",
+        "altText": "Cloudflare logo",
+        "linkHref": "https://www.cloudflare.com"
+      },
+      {
+        "title": "MongoDB",
+        "logo": "/static/stack/mongodb-logo.svg",
+        "altText": "Mongo DB logo",
+        "linkHref": "https://www.mongodb.com"
+      },
+      {
+        "title": "Supabase",
+        "logo": "/static/stack/supabase-logo.svg",
+        "altText": "Supabase logo",
+        "linkHref": "https://supabase.com"
+      }
+    ],
+    "os_apps": [
+      {
+        "title": "VS Code",
+        "logo": "/static/stack/vs-code-logo.svg",
+        "altText": "VS code logo",
+        "linkHref": "https://code.visualstudio.com"
+      },
+      {
+        "title": "Oh my zsh",
+        "logo": "/static/stack/oh-my-zsh-logo.svg",
+        "altText": "Oh my zsh logo",
+        "linkHref": "https://ohmyz.sh"
+      },
+      {
+        "title": "Figma",
+        "logo": "/static/stack/figma-logo.svg",
+        "altText": "Figma logo",
+        "linkHref": "https://www.figma.com"
+      },
+      {
+        "title": "Fedora",
+        "logo": "/static/stack/fedora-logo.svg",
+        "altText": "Fedora logo",
+        "linkHref": "https://fedoraproject.org"
+      },
+      {
+        "title": "MacOS",
+        "logo": "/static/stack/apple-os-logo.svg",
+        "altText": "Apple logo",
+        "linkHref": "https://www.apple.com/in/macos/macos-sequoia"
+      },
+      {
+        "title": "Windows",
+        "logo": "/static/stack/windows-11-logo.svg",
+        "altText": "Windows logo",
+        "linkHref": "https://www.microsoft.com/en-in/windows"
+      }
+    ]
+  }
 }

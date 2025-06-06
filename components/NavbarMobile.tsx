@@ -82,11 +82,11 @@ export default function NavbarMobile() {
             </li>
             <li>
               <Link
-                href="/testimonials"
+                href="/stack"
                 className="text-xl text-white hover:text-white/80"
                 onClick={() => setIsOpen(false)}
               >
-                Testimonials
+                Stack
               </Link>
             </li>
           </ul>

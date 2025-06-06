@@ -32,10 +32,10 @@ export default function Navbar() {
         </li>
         <li>
           <Link
-            href="/testimonials"
+            href="/stack"
             className="text-lg text-white hover:text-white/80"
           >
-            Testimonials
+            Stack
           </Link>
         </li>
       </ul>
