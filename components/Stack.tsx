@@ -19,7 +19,7 @@ const Stack: FC<StackProps> = ({ type, technologies }) => {
       <h4 className="mb-6 text-lg font-semibold text-white">
         {type}
       </h4>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {technologies.map((item, index) => (
           <TechLogo
             key={`${item.title}-${index}`}

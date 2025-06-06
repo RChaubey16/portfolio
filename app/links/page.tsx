@@ -7,8 +7,8 @@ export default function LinksPage() {
   return (
     <div className="w-full">
       <TitleDescription
-        title="Socials"
-        description="Here are some of my projects."
+        title="Links"
+        description="My online presence all in one place. Stalking made easy."
         classes="mb-16"
       />
       <div className="space-y-5">

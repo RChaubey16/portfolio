@@ -10,7 +10,7 @@ export default function Contact() {
         <Link href={"mailto:ruturajchaubey16@gmail.com"} className="text-white font-bold underline">
           ruturajchaubey16@gmail.com
         </Link>
-        {" "} I'm always open to new opportunities and collaborations.
+        {" "} I&apos;m always open to new opportunities and collaborations.
       </p>
     </div>
   );

@@ -1,6 +1,8 @@
 {
   "name": "Ruturaj Chaubey",
+  "role": "Software Engineer",
   "description": "A Full Stack Engineer at QED42, knee-deep in Next.js, Drupal, GenAI, and the occasional existential bug. When I'm not arguing with my code, I'm on the badminton court trying to smash my way to glory. Also, a loyal (and slightly heartbroken) FC Barcelona fan and yes, we still believe.",
+  "profileImage": "/static/photos/avatar-profile.jpg",
   "ventures": [
     {
       "title": "Curate",
@@ -88,7 +90,7 @@
   "projects": [
     {
       "title": "Name my variable",
-      "projectImage": "/roast-my-drupal.png",
+      "projectImage": "/static/projects/name-my-variable.png",
       "projectImageAltText": "Name my variable web page screenshot",
       "projectDescription": "VS code extension which generates better, readable variable names.",
       "tags": ["Extension", "TypeScript", "Groq AI"],
@@ -97,16 +99,16 @@
     },
     {
       "title": "Roast my Drupal",
-      "projectImage": "/roast-my-drupal.png",
+      "projectImage": "/static/projects/roast-my-drupal.png",
       "projectImageAltText": "Roast my Drupal web page screenshot",
-      "projectDescription": "Roast My Drupal is a tool that allows you to roast your Drupal website.",
+      "projectDescription": "Roast My Drupal is a fun app that allows roasts your Drupal Open Source profile.",
       "tags": ["Next.js", "TypeScript", "Gemini AI"],
       "linkHref": "https://roastmydrupal.com",
       "linkText": "View project"
     },
     {
       "title": "AI web scraper",
-      "projectImage": "/roast-my-drupal.png",
+      "projectImage": "/static/projects/roast-my-drupal.png",
       "projectImageAltText": "AI web scraper web page screenshot",
       "projectDescription": "A powerful web scraping tool that combines web automation with AI to intelligently extract and parse information from websites.",
       "tags": ["AI", "Python", "Ollama", "Llama3.1", "Streamlit"],

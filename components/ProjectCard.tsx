@@ -29,8 +29,8 @@ export default function ProjectCard({
             src={projectImage}
             alt={projectImageAltText}
             width={500}
-            height={500}
-            className="w-full object-contain mb-4 border border-white/20 rounded-sm lg:group-hover:opacity-0 transition-opacity duration-300"
+            height={180}
+            className="w-full h-[180px] object-cover mb-4 border border-white/20 rounded-sm lg:group-hover:opacity-0 transition-opacity duration-300"
           />
           {/* Project title and description */}
           <div className="lg:group-hover:opacity-0 transition-opacity duration-300">

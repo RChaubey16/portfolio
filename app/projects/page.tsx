@@ -7,11 +7,11 @@ export default function ProjectsPage() {
   const { projects } = data;
   return (
     <div className="w-full">
-      <TitleDescription title="Projects" description="Here are some of my projects." classes="mb-16" />
+      <TitleDescription title="Projects" description="Things I’ve built, explored, and enjoyed creating." classes="mb-16" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {projects.map((project: Project) => (
+        {projects.map((project: Project, index) => (
           <ProjectCard
-            key={project.projectImage}
+            key={index}
             projectTitle={project.title}
             projectImage={project.projectImage}
             projectImageAltText={project.projectImageAltText}

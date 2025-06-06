@@ -3,8 +3,10 @@
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { useState } from "react";
+import data from "@/data/data.json";
 
 export default function NavbarMobile() {
+  const { name, role, profileImage } = data;
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -96,16 +98,16 @@ export default function NavbarMobile() {
             <div className="flex justify-center items-center gap-6">
               <Avatar className="w-20 h-auto">
                 <AvatarImage
-                  src="https://media.licdn.com/dms/image/v2/D4D03AQFKqx8NhwbCfQ/profile-displayphoto-shrink_200_200/B4DZXz3rV6GwAY-/0/1743553218770?e=1749081600&v=beta&t=9IbAbpPq6NXdB_EL5MIjMHebsLqryBgLAPMICAd2PE8"
+                  src={profileImage}
                   className="object-cover"
                 />
                 <AvatarFallback>RC</AvatarFallback>
               </Avatar>
               <div>
                 <h3 className="text-xl font-semibold text-white">
-                  Ruturaj Chaubey
+                  {name}
                 </h3>
-                <p className="mt-1 text-white/80">Software Engineer</p>
+                <p className="mt-1 text-white/80">{role}</p>
               </div>
             </div>
           </div>
