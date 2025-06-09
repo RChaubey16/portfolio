@@ -2,9 +2,11 @@
 
 A modern, responsive personal portfolio website built with Next.js 15, React 19, and TailwindCSS. This portfolio showcases my projects, experience, and photography through a clean and intuitive interface.
 
+> **Note**: This portfolio is actively maintained and regularly updated with new features and improvements. Keep an eye on the releases for the latest updates!
+
 ## 🎥 Site Preview
 
-https://github.com/RChaubey16/portfolio/public/site.mp4
+![Portfolio Preview](./public/portfolio-site.gif)
 
 ## ✨ Features
 
@@ -85,6 +87,15 @@ The easiest way to deploy this portfolio is using [Vercel](https://vercel.com):
 1. Push your code to a GitHub repository
 2. Import the project to Vercel
 3. Deploy with one click
+
+---
+
+## 📝 Credits
+
+If you use this template for your own portfolio, I'd appreciate a credit! You can add a simple note in your README or footer mentioning:
+```
+Template inspired by RChaubey16's Portfolio
+```
 
 ---
 
