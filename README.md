@@ -2,6 +2,10 @@
 
 A modern, responsive personal portfolio website built with Next.js 15, React 19, and TailwindCSS. This portfolio showcases my projects, experience, and photography through a clean and intuitive interface.
 
+## 🎥 Site Preview
+
+https://github.com/RChaubey16/portfolio/public/site.mp4
+
 ## ✨ Features
 
 - 📱 Responsive design with mobile-first approach
