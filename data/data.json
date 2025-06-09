@@ -179,6 +179,12 @@
         "linkHref": "https://www.electronjs.org"
       },
       {
+        "title": "TypeScript",
+        "logo": "/static/stack/typescript-logo.svg",
+        "altText": "TypeScript logo",
+        "linkHref": "https://www.typescriptlang.org"
+      },
+      {
         "title": "JavaScript",
         "logo": "/static/stack/javascript-logo.svg",
         "altText": "JavaScript logo",
