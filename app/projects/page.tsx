@@ -3,6 +3,11 @@ import TitleDescription from "@/components/ui/TitleDescription";
 import { Project } from "@/types/project";
 import data from "../../data/data.json";
 
+export const metadata = {
+  title: 'Projects | Ruturaj Chaubey',
+  description: "A showcase of my projects, experiments, and things I’ve built.",
+};
+
 export default function ProjectsPage() {
   const { projects } = data;
   return (

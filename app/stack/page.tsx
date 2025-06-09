@@ -2,6 +2,11 @@ import TitleDescription from "@/components/ui/TitleDescription";
 import data from "@/data/data.json";
 import Stack from "@/components/Stack";
 
+export const metadata = {
+  title: 'Stack | Ruturaj Chaubey',
+  description: "A collection of all the apps, tools and technologies I use on a daily basis.",
+};
+
 interface StackItem {
   title: string;
   logo: string;

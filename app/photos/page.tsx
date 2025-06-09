@@ -1,6 +1,11 @@
+import Image from "next/image";
 import TitleDescription from "@/components/ui/TitleDescription";
 import data from "../../data/data.json";
-import Image from "next/image";
+
+export const metadata = {
+  title: 'Photos | Ruturaj Chaubey',
+  description: "A collection of photos that showcase my life and experiences.",
+};
 
 export default function PhotosPage() {
   const { photos } = data;

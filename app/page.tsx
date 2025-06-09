@@ -5,6 +5,11 @@ import CurrentVentures from "@/components/CurrentVentures";
 import Contact from "@/components/Contact";
 import data from "@/data/data.json";
 
+export const metadata = {
+  title: 'Ruturaj Chaubey',
+  description: "Ruturaj's peronal website, showcasing his journey, experiences, and current ventures.",
+};
+
 export default function Home() {
   const { description } = data;
   return (

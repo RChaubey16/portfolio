@@ -2,6 +2,11 @@ import LinkCard from "@/components/LinkCard";
 import data from "../../data/data.json";
 import TitleDescription from "@/components/ui/TitleDescription";
 
+export const metadata = {
+  title: 'Links | Ruturaj Chaubey',
+  description: "Ruturaj's online presence all in one place. Stalking made easy.",
+};
+
 export default function LinksPage() {
   const { links } = data;
   return (
