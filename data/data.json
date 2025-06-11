@@ -117,7 +117,7 @@
     },
     {
       "title": "AI web scraper",
-      "projectImage": "/static/projects/roast-my-drupal.png",
+      "projectImage": "/static/projects/ai-web-scraper.png",
       "projectImageAltText": "AI web scraper web page screenshot",
       "projectDescription": "A powerful web scraping tool that combines web automation with AI to intelligently extract and parse information from websites.",
       "tags": ["AI", "Python", "Ollama", "Llama3.1", "Streamlit"],
