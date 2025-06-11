@@ -103,7 +103,7 @@
       "projectImageAltText": "Roast my Drupal web page screenshot",
       "projectDescription": "Roast My Drupal is a fun app that allows roasts your Drupal Open Source profile.",
       "tags": ["Next.js", "TypeScript", "Gemini AI"],
-      "linkHref": "https://roastmydrupal.com",
+      "linkHref": "https://roast-my-drupal.vercel.app",
       "linkText": "View project"
     },
     {
