@@ -1,12 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { useState } from "react";
-import data from "@/data/data.json";
 
 export default function NavbarMobile() {
-  const { name, role, profileImage } = data;
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -38,7 +35,7 @@ export default function NavbarMobile() {
 
       {/* Mobile Menu Drawer */}
       <div
-        className={`fixed inset-x-0 top-0 z-40 h-[70%] bg-dark-a10 transform transition-transform duration-300 ease-in-out lg:hidden ${
+        className={`fixed inset-x-0 top-[-10px] z-40 h-[60%] bg-dark-a10 transform transition-transform duration-300 ease-in-out lg:hidden ${
           isOpen ? "translate-y-0" : "-translate-y-full"
         }`}
       >
@@ -94,7 +91,7 @@ export default function NavbarMobile() {
           </ul>
 
           {/* Profile Section - Sticky Bottom */}
-          <div className="mt-auto p-4 border-t border-white/10">
+          {/* <div className="mt-auto p-4 border-t border-white/10">
             <div className="flex justify-center items-center gap-6">
               <Avatar className="w-20 h-auto">
                 <AvatarImage
@@ -110,7 +107,7 @@ export default function NavbarMobile() {
                 <p className="mt-1 text-white/80">{role}</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>
