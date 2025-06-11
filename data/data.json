@@ -107,12 +107,30 @@
       "linkText": "View project"
     },
     {
+      "title": "DevConnector",
+      "projectImage": "/static/projects/devconnector.png",
+      "projectImageAltText": "DevConnector home page screenshot",
+      "projectDescription": "A social networking platform that enables developers to create profiles, share posts, and connect with other developers.",
+      "tags": ["React.js", "Express", "MongoDB", "Node.js", "Redux"],
+      "linkHref": "https://github.com/RChaubey16/DevConnector",
+      "linkText": "View Repo"
+    },
+    {
       "title": "AI web scraper",
       "projectImage": "/static/projects/roast-my-drupal.png",
       "projectImageAltText": "AI web scraper web page screenshot",
       "projectDescription": "A powerful web scraping tool that combines web automation with AI to intelligently extract and parse information from websites.",
       "tags": ["AI", "Python", "Ollama", "Llama3.1", "Streamlit"],
       "linkHref": "https://github.com/RChaubey16/ai-web-scraper",
+      "linkText": "View Repo"
+    },
+    {
+      "title": "Netflix Clone",
+      "projectImage": "/static/projects/netflix-clone.png",
+      "projectImageAltText": "Netflix clone project home page screenshot",
+      "projectDescription": "A simple Netflix clone that showcases a collection of movies with a responsive user interface. Clicking on a movie displays its trailer using integrated video playback.",
+      "tags": ["React.js", "TMDB API", "Firebase"],
+      "linkHref": "https://netflix-clone-ff76e.web.app",
       "linkText": "View project"
     }
   ],
