@@ -5,11 +5,6 @@
   "profileImage": "/static/photos/avatar-profile.jpg",
   "ventures": [
     {
-      "title": "Curate",
-      "description": "A tool to help you curate content for your audience",
-      "linkHref": "/home"
-    },
-    {
       "title": "Roast My Drupal V2",
       "description": "Get your Drupal profile roasted",
       "linkHref": "/home"
