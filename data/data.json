@@ -5,9 +5,9 @@
   "profileImage": "/static/photos/avatar-profile.jpg",
   "ventures": [
     {
-      "title": "Roast My Drupal V2",
-      "description": "Get your Drupal profile roasted",
-      "linkHref": "/home"
+      "title": "F1 Dashboard",
+      "description": "Stay updated on F1 — all in one spot.",
+      "linkHref": "https://github.com/RChaubey16/f1-dashboard"
     }
   ],
   "photos": [

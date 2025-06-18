@@ -26,6 +26,7 @@ export default function CurrentVentures() {
               <Link
                 href={venture.linkHref}
                 className="text-lg text-white/90 font-semibold hover:underline"
+                target="_blank"
               >
                 {venture.title}
               </Link>
