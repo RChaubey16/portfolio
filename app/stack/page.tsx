@@ -1,10 +1,12 @@
 import TitleDescription from "@/components/ui/TitleDescription";
 import data from "@/data/data.json";
 import Stack from "@/components/Stack";
+import Fade from "@/components/ui/Fade";
 
 export const metadata = {
-  title: 'Stack | Ruturaj Chaubey',
-  description: "A collection of all the apps, tools and technologies I use on a daily basis.",
+  title: "Stack | Ruturaj Chaubey",
+  description:
+    "A collection of all the apps, tools and technologies I use on a daily basis.",
 };
 
 interface StackItem {
@@ -20,14 +22,16 @@ export default function StackPage() {
   const osApps: StackItem[] = data["stack:"].os_apps;
 
   return (
-    <div className="w-full">
-      <TitleDescription
-        title="Stack"
-        description="All the apps, tools and technologies I use on a daily basis."
-      />
-      <Stack type="Language/Frameworks" technologies={languageFrameworks} />
-      <Stack type="Services" technologies={services} />
-      <Stack type="OS & Apps" technologies={osApps} />
-    </div>
+    <Fade>
+      <div className="w-full">
+        <TitleDescription
+          title="Stack"
+          description="All the apps, tools and technologies I use on a daily basis."
+        />
+        <Stack type="Language/Frameworks" technologies={languageFrameworks} />
+        <Stack type="Services" technologies={services} />
+        <Stack type="OS & Apps" technologies={osApps} />
+      </div>
+    </Fade>
   );
 }
