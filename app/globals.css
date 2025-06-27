@@ -41,17 +41,27 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+
+  --animate-shine: shine 5s linear infinite;
+  @keyframes shine {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: -100% 0;
+    }
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --primary-color: #5DD2DD;
+    --primary-color: #5dd2dd;
     --dark-a0: #121212;
     --dark-a10: #282828;
-    --dark-a20: #3F3F3F;
+    --dark-a20: #3f3f3f;
     --dark-a30: #575757;
     --dark-a40: #717171;
-    --dark-a50: #8B8B8B;
+    --dark-a50: #8b8b8b;
   }
 
   @theme inline {
