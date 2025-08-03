@@ -9,7 +9,7 @@ import Fade from "@/components/ui/Fade";
 export const metadata = {
   title: "Ruturaj Chaubey",
   description:
-    "Ruturaj's peronal website, showcasing his journey, experiences, and current ventures.",
+    "Ruturaj's personal website, showcasing his journey, experiences, and current ventures.",
 };
 
 export default function Home() {
