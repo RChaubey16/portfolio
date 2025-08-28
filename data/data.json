@@ -5,9 +5,9 @@
   "profileImage": "/static/photos/avatar-profile.jpg",
   "ventures": [
     {
-      "title": "Learning Go.",
-      "description": "Exploring the world of Go programming language, diving into its concurrency model and performance.",
-      "linkHref": "#"
+      "title": "",
+      "description": "",
+      "linkHref": ""
     }
   ],
   "photos": [

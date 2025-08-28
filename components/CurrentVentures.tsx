@@ -3,6 +3,14 @@ import TitleDescription from "./ui/TitleDescription";
 import Link from "next/link";
 import data from "../data/data.json";
 
+// const venturesDataExample = [
+//   {
+//     title: "F1 Dashboard",
+//     description: "Stay updated on F1 — all in one spot.",
+//     linkHref: "https://github.com/RChaubey16/f1-dashboard",
+//   },
+// ];
+
 export default function CurrentVentures() {
   const { ventures } = data;
   return (
