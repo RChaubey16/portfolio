@@ -5,9 +5,9 @@
   "profileImage": "/static/photos/avatar-profile.jpg",
   "ventures": [
     {
-      "title": "",
-      "description": "",
-      "linkHref": ""
+      "title": "Learning Go Lang",
+      "description": "Exploring the world of Go programming language, diving into its concurrency model and performance.",
+      "linkHref": "#"
     }
   ],
   "photos": [
@@ -99,15 +99,6 @@
       "projectDescription": "Roast My Drupal is a fun app that allows roasts your Drupal Open Source profile.",
       "tags": ["Next.js", "TypeScript", "Gemini AI"],
       "linkHref": "https://roast-my-drupal.vercel.app",
-      "linkText": "View project"
-    },
-    {
-      "title": "Colorly",
-      "projectImage": "/static/projects/colorly.png",
-      "projectImageAltText": "Colorly home page screenshot",
-      "projectDescription": "Simply enter a hex code and watch it create a complete set of color shades, each with its proper name and easy copy-to-clipboard functionality.",
-      "tags": ["Next.js", "Tailwind", "Color API"],
-      "linkHref": "https://colorly-tau.vercel.app",
       "linkText": "View project"
     },
     {
