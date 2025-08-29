@@ -30,14 +30,6 @@ export default function Navbar() {
             Links
           </Link>
         </li>
-        <li>
-          <Link
-            href="/stack"
-            className="text-lg text-white hover:text-white/80"
-          >
-            Stack
-          </Link>
-        </li>
       </ul>
     </nav>
   );
