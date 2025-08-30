@@ -50,35 +50,35 @@
       "logo": "/linkedin-logo.svg",
       "text": "LinkedIn",
       "description": "Skip the small talk, add me on LinkedIn.",
-      "linkHref": "https://www.linkedin.com/in/ruturaj-chaubey-b453b41b1",
+      "linkHref": "https://creator.kiwi/ruturaj-linkedin",
       "linkText": "View"
     },
     {
       "logo": "/github-logo.svg",
       "text": "GitHub",
       "description": "A backstage pass to the code behind the scenes.",
-      "linkHref": "https://github.com/RChaubey16",
+      "linkHref": "https://creator.kiwi/ruturaj-github",
       "linkText": "View"
     },
     {
       "logo": "/x-logo.svg",
       "text": "X / Twitter",
       "description": "The front row seat to my unfiltered takes.",
-      "linkHref": "https://x.com/RChaubey16",
+      "linkHref": "https://creator.kiwi/ruturaj-x",
       "linkText": "View"
     },
     {
       "logo": "/drupal-logo.svg",
       "text": "Drupal",
       "description": "The debug log of my Drupal adventures.",
-      "linkHref": "https://www.drupal.org/u/ruturaj-chaubey",
+      "linkHref": "https://creator.kiwi/ruturaj-drupal-os",
       "linkText": "View"
     },
     {
       "logo": "/hugging-face-logo.svg",
       "text": "Hugging face",
       "description": "Sneak peek into my AI experiments.",
-      "linkHref": "https://huggingface.co/RChaubey16",
+      "linkHref": "https://creator.kiwi/ruturaj-hugging-face",
       "linkText": "View"
     }
   ],
